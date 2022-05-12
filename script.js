@@ -16,6 +16,9 @@ const a = prompt('Один из просмотренных фильмов?', '')
 personalMoviesDB.movies[a] = b;
 personalMoviesDB[c] = d;
 
+console.log(personalMoviesDB);
+
+
 
 
 

@@ -1,6 +1,6 @@
 const numbersOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
 
-const personalMoviesDB {
+const personalMoviesDB = {
     count: numbersOfFilms,
     movies: {},
     actors: {},
@@ -14,7 +14,7 @@ const a = prompt('Один из просмотренных фильмов?', '')
       d = prompt('На сколько оцените?', '');
 
 personalMoviesDB.movies[a] = b;
-personalMoviesDB[c] = d;
+personalMoviesDB.movies[c] = d;
 
 console.log(personalMoviesDB);
 
